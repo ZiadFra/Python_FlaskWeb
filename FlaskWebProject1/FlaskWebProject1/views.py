@@ -37,12 +37,14 @@ def about():
     )
 
 
-@app.route('/TestZZZ')
-def about():
+@app.route('/JSPage')
+def JSPage():
     """Renders the about page."""
     return render_template(
-        'about.html',
+        'JSPage.html',
         title='About',
         year=datetime.now().year,
-        message='Your application description page.'
+        message='Your application description page.',
+        value = 2*3
+
     )
