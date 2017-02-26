@@ -37,7 +37,7 @@ def about():
     )
 
 
-@app.route('/TestPage')
+@app.route('/TestZZZ')
 def about():
     """Renders the about page."""
     return render_template(
